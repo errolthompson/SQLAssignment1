@@ -1,6 +1,6 @@
 select name, population from world where name = 'France';
 select name, population from world where name in('Sweden', 'Norway', 'Denmark');
-select name, population from world where population > 200000000;
+select name, population from world where population >= 200000000;
 select name from world where name like '%United%';
 select name from world where name like 'B%';
 select name from world where name like '%y';
